@@ -61,10 +61,10 @@
                     <small>+57 313 555 5555</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-square btn-link rounded-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://es-la.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://twitter.com/?lang=es" target="blank"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-square btn-link rounded-0 border-0 border-end border-secondary" href="https://co.linkedin.com" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-square btn-link rounded-0" href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -83,20 +83,11 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                <a href="about.html" class="nav-item nav-link">Acerca de</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Rutas</a>
-                    <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Monteria</a>
-                        <a href="appointment.html" class="dropdown-item">Sincelejo</a>
-                        <a href="team.html" class="dropdown-item">Puerto Escondido</a>
-                        <a href="testimonial.html" class="dropdown-item">Cerete</a>
-                        <a href="404.html" class="dropdown-item">Otros</a>
-                    </div>
-                </div>
+                <a href="about.html" class="nav-item nav-link">Acerca de nosotros</a>
+                <a href="rutas.html" class="nav-item nav-link">Nuestras Rutas</a>
                 <a href="contact.html" class="nav-item nav-link">Contactanos</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">¿Eres conductor?<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="drivers.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">¿Eres conductor?<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -114,7 +105,7 @@
                                 <div class="col-lg-7">
                                     <h1 class="display-2 text-light mb-5 animated slideInDown">¿Eres conductor intermunicipal y quieres llenar cupos en tu vehiculo?</h1>
                                     <a href="" class="btn btn-primary py-sm-3 px-sm-5">Aprender más</a>
-                                    <a href="" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestras Rutas</a>
+                                    <a href="rutas.html" class="btn btn-light py-sm-3 px-sm-5 ms-3">Nuestras Rutas</a>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +262,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-1.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="404.html">Mas informacion</a>
+                                <a class="btn btn-outline-primary border-2" href="rutas.html">Mas informacion</a>
                             </div>
                         </div>
                     </div>
@@ -289,7 +280,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-2.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="404.html">Mas informacion</a>
+                                <a class="btn btn-outline-primary border-2" href="rutas.html">Mas informacion</a>
                             </div>
                         </div>
                     </div>
@@ -307,7 +298,7 @@
                         <div class="position-relative mt-auto">
                             <img class="img-fluid" src="img/courses-3.jpg" alt="">
                             <div class="courses-overlay">
-                                <a class="btn btn-outline-primary border-2" href="404.html">Mas informacion</a>
+                                <a class="btn btn-outline-primary border-2" href="rutas.html">Mas informacion</a>
                             </div>
                         </div>
                     </div>
@@ -382,17 +373,17 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Paginas comunes</h4>
-                    <a class="btn btn-link" href="">Acerca de nosotros</a>
-                    <a class="btn btn-link" href="">Contactanos</a>
-                    <a class="btn btn-link" href="">Nuestras Rutas</a>
-                    <a class="btn btn-link" href="">Terminos y Condiciones</a>
+                    <a class="btn btn-link" href="about.html">Acerca de nosotros</a>
+                    <a class="btn btn-link" href="contact.html">Contactanos</a>
+                    <a class="btn btn-link" href="rutas.html">Nuestras Rutas</a>
+                    <a class="btn btn-link" href="#">Terminos y Condiciones</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Paginas mas vistas</h4>
-                    <a class="btn btn-link" href="">Acerca de nosotros</a>
-                    <a class="btn btn-link" href="">Contactanos</a>
-                    <a class="btn btn-link" href="">Nuestras rutas</a>
-                    <a class="btn btn-link" href="">Terminos y Condiciones</a>
+                <h4 class="text-light mb-4">Paginas comunes</h4>
+                    <a class="btn btn-link" href="about.html">Acerca de nosotros</a>
+                    <a class="btn btn-link" href="contact.html">Contactanos</a>
+                    <a class="btn btn-link" href="rutas.html">Nuestras Rutas</a>
+                    <a class="btn btn-link" href="#">Terminos y Condiciones</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-light mb-4">Mantente al dia:</h4>
@@ -404,10 +395,10 @@
                     </form>
                     <h6 class="text-white mt-4 mb-3">Sigenos en nuestras redes sociales</h6>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="https://twitter.com/?lang=es" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="https://es-la.facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-light me-1" href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-light me-0" href="https://co.linkedin.com" target="blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
